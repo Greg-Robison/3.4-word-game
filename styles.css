@@ -3,6 +3,25 @@ body{
 }
 h1{
   text-align: center;
-  margin-top: 200px;
+  font-size: 50px;
+}
+p{
+  text-align: center;
+  font-size: 20px;
+}
+h2{
+  text-align: center;
+  margin-top: 50px;
   font-size: 75px;
+}
+.letters {
+  text-align: center;
+  
+}
+
+.letters button {
+  width: 35px;
+  height: 35px;
+  margin: 0 3px;
+  font-size: 20px;
 }
