@@ -17,13 +17,10 @@ for (var i = 0; i < randWord.length; i++) {
   if(randWord[i] == event.target.textContent){
     document.querySelector("#letter-" + i).textContent = randWord[i];
   }
-else {
-  querySelector("#letter-" + i).disabled = true;
-}
-
 
 }
-}
+};
+
 
 
 for (var i = 0; i < alphabet.length; i++) {

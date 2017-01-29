@@ -14,14 +14,96 @@ h2{
   margin-top: 50px;
   font-size: 75px;
 }
+
+
 .letters {
+  font-weight: bolder;
   text-align: center;
-  
+  color: white;
+
 }
 
 .letters button {
+  border-radius: 7px;
   width: 35px;
   height: 35px;
   margin: 0 3px;
   font-size: 20px;
+  color: white;
+  background-color: blue;
+}
+.rope{
+  position: absolute;
+  border-left: 3px solid brown;
+  height: 33px;
+  margin-left: 118px;
+  margin-top: -31px;
+}
+.gallows-bottom{
+  position: relative;
+  border-bottom: 15px solid black;
+  margin-right: 1065px;
+  margin-left: 35px;
+  margin-top: 208px;
+}
+.gallows-side{
+  position: absolute;
+  border-left: 5px solid black;
+  height: 187px;
+  margin-top: -192px;
+  margin-left: 55px;
+
+}
+.gallows-top{
+  border-top: 5px solid black;
+  margin-right: 1124px;
+  margin-left: 35px;
+  margin-top: -197px;
+}
+.head{
+  position: absolute;
+  width: 37px;
+  height: 45px;
+  border: 4px solid black;
+  border-radius: 100%;
+  margin-top: 30px;
+  margin-left: 97px;
+}
+.body{
+  position: absolute;
+  border-left: 4px solid black;
+  height: 52px;
+  margin-left: 118px;
+  margin-top: 82px;
+}
+
+.arms{
+  position: absolute;
+  border-top: 4px solid black;
+  width: 60px;
+  margin-left: 90px;
+  margin-top: 91px;
+}
+.hips{
+  position: absolute;
+  border-top: 4px solid black;
+  width: 29px;
+  margin-left: 105px;
+  margin-top: 130px;
+}
+
+.leftLeg{
+  position: absolute;
+  border-left: 4px solid black;
+  height: 30px;
+  margin-left: 104px;
+  margin-top: 130px;
+}
+
+.rightLeg{
+  position: absolute;
+  border-left: 4px solid black;
+  height: 30px;
+  margin-left: 133px;
+  margin-top: 130px;
 }
